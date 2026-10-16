@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Dataset (Do NOT commit - exceeds GitHub file size limits)
+data/
+*.zip
+*.tar.gz
+PetImages/
+kagglecatsanddogs*
+
+# Checkpoints and temp logs
+cat_dog_checkpoints/
+training_log.csv
+latest_cat_dog_cnn.keras
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE configurations
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
